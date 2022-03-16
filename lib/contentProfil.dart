@@ -26,7 +26,7 @@ class rowProfil1 extends StatelessWidget {
                 width: 70,
                 child: DecoratedBox(
                     decoration: BoxDecoration(color: Colors.amberAccent),
-                    child: Center(child: Text('Angga'))),
+                    child: Center(child: Text('Kontak'))),
               )
             ],
           ),
@@ -76,13 +76,13 @@ class rowProfil2 extends StatelessWidget {
             borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(10),
             ),
-            border: Border.all(color: Colors.blue),
+            border: Border.all(color: Colors.greenAccent),
           ),
           child: Column(
             children: const [
               Icon(
                 Icons.add_photo_alternate,
-                color: Colors.greenAccent,
+                color: Colors.blueAccent,
               ),
               Padding(padding: EdgeInsets.only(bottom: 20)),
               SizedBox(
